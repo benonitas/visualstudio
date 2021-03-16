@@ -15,7 +15,7 @@ namespace devops
         {
             CreateHostBuilder(args).Build().Run();
         }
-        //Changes made
+        // Changes
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
